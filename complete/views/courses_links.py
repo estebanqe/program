@@ -11,7 +11,7 @@ def courses_links() -> rx.Component:
         Link_button(
             "pagina Creyente",
             "Nueva descripcion de la pagina Creyente ",
-            "/AvatarC.png",
+            "/icons/linkedin.svg",
             const.Creyente
         ),
         
