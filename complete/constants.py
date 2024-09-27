@@ -1,6 +1,5 @@
 # Comunes
-G_TAG = "G-3YGHT3XJFS"
-
+G_TAG = "TU_CODIGO_GOOGLE_TAG_MANAGER"
 
 
 #cabecera
