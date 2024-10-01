@@ -1,11 +1,11 @@
 name: Static Build
 
-on: 
+on:
   push:
-    branches:  
-      -main
+    branches:
+      - main
 
-jobs: 
+jobs:
   build:
     if: github.repository == 'estebanqe/program'
     runs-on: ubuntu-latest
@@ -17,19 +17,18 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-     - name: Setup Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      -name: Run build script 
-       run: ./complete/remote_build.sh
+      - name: Run build script
+        run: ./complete/remote_build.s
 
-      -name: Commit and Push changes
-       uses: stefanzweifel/git-auto-commit-action@v5
-       with:
-         commit_message: Update static build
-         commit_user_name: Esteban Quina [Github Actions]
-         commit_user_mail: estebanquinae@gmail.com
-         commit_author: estebanqe <estebanquinae@gmail.com>
-      
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update static build
+          commit_user_name: Esteban Quiña [GitHub Actions]
+          commit_user_email: estebanquinae@gmail.com
+          commit_author: Esteban Quina <estebanquinaev@gmail.com>
