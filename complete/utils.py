@@ -25,6 +25,7 @@ index_meta = [
     {"name": "og:title", "content": index_title},
     {"name": "og:description", "content": index_description},
 ]
+
 index_meta.extend(_meta)
 
 # Cursos
