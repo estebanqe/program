@@ -33,4 +33,4 @@ jobs:
           commit_message: Update static build
           commit_user_name: Esteban Quiña [GitHub Actions]
           commit_user_email: estebanquinae@gmail.com
-          commit_author: Esteban Quina <estebanquinaev@gmail.com>
+          commit_author: Esteban Quiña <estebanquinaev@gmail.com>
