@@ -36,7 +36,7 @@ def header(details=True) -> rx.Component:
                     size=Size.BIG.value
                 ),
                 rx.text(
-                    "César Quiña & Hijos",
+                    "César Q. & Hijos",
                     margin_top=EmSize.ZERO.value,
                     color=Color.PRIMARY.value
                 ),
